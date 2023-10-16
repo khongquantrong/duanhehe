@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    border: 1px solid #ddd;
+  }
+  
+  .table-container {
+    margin-top: 20px;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+  }
+  
+  .custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+  }
+  
+  .table-header {
+    background-color: #b2b2b2;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #b2b2b2;
+  }
+  
+  .table-cell {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table-cell:last-child {
+    border-bottom: none;
+  }
